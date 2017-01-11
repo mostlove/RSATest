@@ -17,3 +17,6 @@
 ### 不需要加密的请求
 如果不需要对请求进行加密 或者 没有参数 则 不传 param_rsa 参数 (包括空字符串)
 
+### 服务器端的操作
+服务器的逻辑验证 在 com.magicbeans.filter.AuthenticationFilter 类
+
